@@ -1,0 +1,38 @@
+package com.melissay94.android.scale.measurementdimension
+
+const val PARSECS_IN_METER = 3.24078e-17
+const val LIGHTYEARS_IN_METER = 1.057e-16
+const val ASTRONOMICAL_UNITS_IN_METER = 6.68459e-12
+const val NAUTICAL_LEAGUES_IN_METER = 0.000179986
+const val NAUTICAL_MILES_IN_METER = 0.000539957
+const val MILES_IN_METER = 0.000621371
+const val SCANDINAVIAN_MILES_IN_METER = 0.0001
+const val FURLONGS_IN_METER = 0.00497096
+const val CHAINS_IN_METER = 0.0497097
+const val RODS_IN_METER = 0.198839
+const val FATHOMS_IN_METER = 0.546807
+const val YARDS_IN_METER = 1.09361
+const val FEET_IN_METER = 3.28084
+const val INCHES_IN_METER = 39.3701
+const val LINES_IN_METER = 472.4412
+const val THOUS_IN_METER = 39370.07874
+
+enum class LengthUnit: MeasurementDimension {
+    PARSEC,
+    LIGHT_YEAR,
+    ASTRONOMICAL_UNIT,
+    NAUTICAL_LEAGUE,
+    NAUTICAL_MILE,
+    MILE,
+    SCANDINAVIAN_MILE,
+    FURLONG,
+    CHAIN,
+    ROD,
+    FATHOM,
+    YARD,
+    FEET,
+    INCHES,
+    LINES,
+    THOU,
+    METER,
+}
